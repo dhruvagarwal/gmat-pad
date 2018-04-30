@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>GMAT Pad</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+<div class="wrapper">
+    <h1>GMAT Pad</h1>
+    <p><span id="minutes">00</span>:<span id="seconds">00</span></p>
+    <button id="button-start">Start</button>
+    <button id="button-stop">Stop</button>
+    <button id="button-reset">Reset</button>
+</div>
+
+<div class="workplace">
+  <div class="active-question">
+    <h2>Question <span id="num">1</span></h2>
+    <button class="option" value="A">A</button>
+    <button class="option" value="B">B</button>
+    <button class="option" value="C">C</button>
+    <button class="option" value="D">D</button>
+    <button class="option" value="E">E</button>
+  </div>
+  <div class="attempts">
+    <h2>Attempts</h2>
+    <ul id="attemptList">
+
+    </ul>
+  </div>
+</div>
+
+<div class="results" style="display: none">
+  <h2>Results</h2>
+  <span id="score">Score <span id="score-value">0</span></span>
+  <table id="answersheet">
+    <tr><th>Question</th><th>Answer</th><th>Time</th><th>Correct Answer</th></tr>
+  </table>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+<script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
